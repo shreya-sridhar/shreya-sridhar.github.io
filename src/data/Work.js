@@ -1,7 +1,7 @@
-#import flyrobe from "../assets/images/flyrobe-logo.png";
-#import vodafone from "../assets/images/vodafone-logo.png";
-#import simeio from "../assets/images/simeio-logo.png";
-#import ola from "../assets/images/ola-logo.png";
+// #import flyrobe from "../assets/images/flyrobe-logo.png";
+// #import vodafone from "../assets/images/vodafone-logo.png";
+// #import simeio from "../assets/images/simeio-logo.png";
+// #import ola from "../assets/images/ola-logo.png";
 
 export default [
 	{
