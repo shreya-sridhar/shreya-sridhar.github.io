@@ -1,16 +1,4 @@
-var plugins = [{
-      plugin: require('C:/Users/shrey/shreya-sridhar.github.io/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
-      options: {"plugins":[]},
-    },{
-      plugin: require('C:/Users/shrey/shreya-sridhar.github.io/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
-      options: {"plugins":[]},
-    },{
-      plugin: require('C:/Users/shrey/shreya-sridhar.github.io/node_modules/gatsby-plugin-google-fonts/gatsby-ssr'),
-      options: {"plugins":[],"fonts":["Signika","source sans pro:300,400,600"]},
-    },{
-      plugin: require('C:/Users/shrey/shreya-sridhar.github.io/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
-      options: {"plugins":[],"trackingId":"UA-130172537-1","head":false},
-    }]
+var plugins = []
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
 //   {

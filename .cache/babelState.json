@@ -7,14 +7,6 @@
           "options": {}
         },
         {
-          "name": "babel-plugin-styled-components",
-          "stage": "develop",
-          "options": {
-            "plugins": [],
-            "ssr": false
-          }
-        },
-        {
           "name": "C:\\Users\\shrey\\shreya-sridhar.github.io\\node_modules\\@babel\\plugin-proposal-optional-chaining\\lib\\index.js",
           "options": {}
         },
@@ -60,14 +52,6 @@
         {
           "name": "C:\\Users\\shrey\\shreya-sridhar.github.io\\node_modules\\@babel\\plugin-proposal-numeric-separator\\lib\\index.js",
           "options": {}
-        },
-        {
-          "name": "babel-plugin-styled-components",
-          "stage": "develop-html",
-          "options": {
-            "plugins": [],
-            "ssr": false
-          }
         }
       ],
       "presets": [
@@ -103,14 +87,6 @@
         {
           "name": "C:\\Users\\shrey\\shreya-sridhar.github.io\\node_modules\\@babel\\plugin-proposal-numeric-separator\\lib\\index.js",
           "options": {}
-        },
-        {
-          "name": "babel-plugin-styled-components",
-          "stage": "build-html",
-          "options": {
-            "plugins": [],
-            "ssr": true
-          }
         }
       ],
       "presets": [
@@ -146,14 +122,6 @@
         {
           "name": "C:\\Users\\shrey\\shreya-sridhar.github.io\\node_modules\\@babel\\plugin-proposal-numeric-separator\\lib\\index.js",
           "options": {}
-        },
-        {
-          "name": "babel-plugin-styled-components",
-          "stage": "build-javascript",
-          "options": {
-            "plugins": [],
-            "ssr": true
-          }
         }
       ],
       "presets": [
