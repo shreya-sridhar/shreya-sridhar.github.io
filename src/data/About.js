@@ -13,11 +13,11 @@ export default [
 			"I love the learning curve in building cool new applications. Here are some interesting projects I've built.",
 		path: "/projects",
 	},
-	{
-		id: 3,
-		title: "Recommendation",
-		description:
-			"What some of my colleagues, mentors and managers had to say about working with me",
-		path: "/recommendation",
-	},
+	// {
+	// 	id: 3,
+	// 	title: "Recommendation",
+	// 	description:
+	// 		"What some of my colleagues, mentors and managers had to say about working with me",
+	// 	path: "/recommendation",
+	// },
 ];
