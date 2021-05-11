@@ -15,7 +15,7 @@ const Projects = () => (
       <TabList>
         <Tab>Professional</Tab>
         <Tab>Personal</Tab>
-        <Tab>Undergrad</Tab>
+        {/* <Tab>Undergrad</Tab> */}
       </TabList>
 
       <TabPanel>
