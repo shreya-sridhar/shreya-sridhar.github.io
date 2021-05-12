@@ -17,7 +17,7 @@ export default [
 	{
 		id: 4,
 		name: "Simeio Solutions",
-		designation: "Analytics Lead",
+		designation: "Lead Analyst (COO's office)",
 		dated: "July 2016 - Feb 2018",
 // 		# logo: simeio,
 		companyLink: "https://simeio.com/",
@@ -27,21 +27,21 @@ export default [
 	{
 		id: 3,
 		name: "Flyrobe",
-		designation: "Web Developer",
-		dated: "April 2016 - July 2016",
+		designation: "Web Developer (Internship)",
+		dated: "April 2016 - June 2016",
 // 		# logo: flyrobe,
 		companyLink: "https://flyrobe.com/",
 		description:
 			"<p><i>Flyrobe is India's largest fashion rental platform offering occasion wear on rent for men and women. Its present in 10 major Indian cities and also has offline stores in Mumbai and Delhi.</i></p>"
-	},
-	{
-		id: 2,
-		name: "RoundGlass ZoojooBe",
-		designation: "Frontend Developer Intern",
-		dated: "Jan 2016 - May 2016",
-// 		# logo: vodafone,
-		companyLink: "https://www.zoojoo.be",
+	}
+	,	{
+		id: 4,
+		name: "Vodafone",
+		designation: "Business Analyst (Internship)",
+		dated: "April 2015 - July 2015",
+// 		# logo: flyrobe,
+		companyLink: "https://www.vodafone.com/",
 		description:
-			"<p>Zoojoo.be is a game based social wellness platform that unites the workforce to form healthier habits. The psychology behind Zoojoo.be is to enable peer-to-peer motivation allowing people to challenge, cheer and reward their colleagues and friends within their organisation. <p>Contribution : <p> <ul><li>Performance improvements to the platform. This helped reduce the page load time from 12 seconds to just 4 seconds.</li><li>Worked on multiple client specific feature requirements on the platform, for companies like HP, HPI, Mphasis, Sapient, Mindtree and more.</li><li>Developed and maintained the frontend of the sales website for Aware, a guided mindfulness meditation mobile app.</li></ul>"
-	},
+			"<p><i>Vodafone is a telecoms operator provides mobile and broadband services. By number of customers, Vodafone is one of the largest telcos in the world, with over 400 million connections and customers across 26 countries.</i></p>"
+	}
 ];

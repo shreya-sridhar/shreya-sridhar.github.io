@@ -5,6 +5,9 @@ const Box = styled.div`
   max-width: 450px;
   width: 35%;
   min-height: 470px;
+  max-height:700px;
+  min-width: 400px;
+  padding:0px;
   border-radius: 8px;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
             0 3px 1px -2px rgba(0,0,0,0.12),
@@ -65,6 +68,9 @@ const BoxDescription = styled.div`
   height: calc(100% - 120px);
   p{
     color: #0f1645;
+    overflow-y:scroll;
+    font-size:17px;
+    font-weight:lighter;
   }
   a{
     color: #7fa1e8;
@@ -73,12 +79,15 @@ const BoxDescription = styled.div`
     display: block;
     margin:0 0 10px;
     text-decoration: none;
+    target:_blank;
   }
 `
 const BoxStack = styled.div`
   margin-top: auto;
   p{
     margin: 0;
+    font-size: 15px;
+    font-family: oblique;
   }
 `
 const ProjectBox = ({ info }) => (

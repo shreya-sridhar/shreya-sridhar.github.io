@@ -12,24 +12,24 @@ export default [
 	
 	{
 		id: 2,
-		title: "Zoojoobe Sales website",
+		title: "Outstation Category Dashboard",
 		icon: website,
 		description:
-			"Zoojoobe is a game based social wellness platform that unites the workforce to form healthier habits. The platform leverages on the tremendous power of the trusted social network at our workplace to motivate employees to form healthier habits. Developed the sales website on wordpress.",
+			"The dashboard is built using fetching data from Hive using SQL and built on Spreadsheet. Extensive analytics using R & Python to produce various business metrics with different paramters for filtering. Competitor data integrated from external APIs.",
 		githubPath: null,
-		demoPath: "https://www.zoojoo.be",
+		demoPath: "https://www.olacabs.com/about.html",
 		year: "2016",
-		techUsed: "Jquery, HTML, CSS",
+		techUsed: "SQL,Hive,R,Python",
 	},
 	{
 		id: 1,
-		title: "Aware Dashboard",
+		title: "Voice Of Customer(VOC) Project",
 		icon: aware,
 		description:
-			"Aware is a mindfulness meditation mobile app which provides guided meditation sessions to users. Developed the web front end for Aware Dashboard using ReactJS. Some of the features of this dashboard include User Profile, App related stats, Coupon redemption, Gifting module and Payment gateway integration using Paddle.",
+			"VOC was a product built on a survey portal, Qualtrics. Built extensive dashboards on Tableau and data analytics using Matlab & Python",
 		githubPath: null,
-		demoPath: "https://my.awaremeditationapp.com/",
+		demoPath: "https://simeio.com/",
 		year: "2017",
-		techUsed: "React, Material-UI, SASS",
+		techUsed: "MATLAB,Python,Tableau",
 	},
 ];

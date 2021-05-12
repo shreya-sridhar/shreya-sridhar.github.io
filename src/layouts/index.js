@@ -8,6 +8,7 @@ import './index.css'
 import { siteMeta } from '../data/Seo'
 import favicon from '../assets/images/rash-favicon.png'
 import blueBg from '../assets/images/blue-bg.png'
+// import me from '../assets/images/websiteme.PNG'
 
 const Wrapper = styled.div`
   background-image: url(${blueBg});

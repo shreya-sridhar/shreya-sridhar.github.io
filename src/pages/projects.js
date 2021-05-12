@@ -13,22 +13,22 @@ const Projects = () => (
   <ProjectsWrapper>
     <Tabs>
       <TabList>
-        <Tab>Professional</Tab>
         <Tab>Personal</Tab>
+        <Tab>Professional</Tab>
         {/* <Tab>Undergrad</Tab> */}
       </TabList>
 
       <TabPanel>
         <ProjectsSection>
           {
-            proProjects.map(item => (<ProjectBox key={item.id} info={item} />))
+            hobbyProjects.map(item => (<ProjectBox key={item.id} info={item} />))
           }
         </ProjectsSection>
       </TabPanel>
       <TabPanel>
         <ProjectsSection>
           {
-            hobbyProjects.map(item => (<ProjectBox key={item.id} info={item} />))
+            proProjects.map(item => (<ProjectBox key={item.id} info={item} />))
           }
         </ProjectsSection>
       </TabPanel>

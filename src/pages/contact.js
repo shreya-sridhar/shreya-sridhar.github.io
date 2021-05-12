@@ -2,6 +2,7 @@ import React from "react";
 import SocialContact from "../components/Contact/SocialContact";
 import contact from "../data/Contact";
 import social from "../data/Social";
+import me from "../assets/images/me.jpg"
 import {
 	ContactWrapper,
 	ContactHeader,
@@ -14,6 +15,9 @@ const Contact = () => (
 	<Layout>
 		<ContactWrapper>
 			<ContactHeader>Get in touch</ContactHeader>
+			<div style={{display:"flex",justifyContent:"center"}}>
+			<img src={me} style={{height:300}}/>
+			</div>
 			<ContactDetails>
 				<ContactBox>
 					{contact.map((item) => (

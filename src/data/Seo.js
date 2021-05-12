@@ -1,21 +1,23 @@
 import favicon from '../assets/images/rash-favicon.png'
+import me from '../assets/images/websiteme.svg'
 
 export const aboutWebsite = {
     "@context": "http://schema.org",
     "@type": "WebSite",
     "url": "http://shreya-sridhar.github.io",
-    "name": "Shreya AP | Front-end Engineer, Zoojoobe",
+    "name": "Shreya Sridhar | Full Stack Developer",
     "author": {
         "@type": "Person",
-        "name": "Shreya AP"
+        "name": "Shreya Sridhar"
     }
 }
 export const siteMeta = {
-    title: 'Shreya AP | Frontend Developer',
+    title: 'Shreya Sridhar | Frontend Developer',
     favicon: favicon,
-    author: "Shreya AP",
-    description: "Hello there, welcome to my portfolio. I am a front end developer, visual artist and an animal lover based out of Bangalore.",
-    copyright: "Shreya AP, Copyright (c) 2018",
+    author: "Shreya Sridhar",
+    description: "Hello there, welcome to my portfolio. I’m a Full Stack developer experienced in Ruby on Rails, React, React Native and Javascript. I transitioned into software engineering from a data science (analytics) background where I worked extensively with R, Python, SQL and Hive for statistical modelling.",
+    image: me,
+    copyright: "Shreya Sridhar, Copyright (c) 2021",
     keywords: [
         "Shreya AP",
         "ZoojooBE",

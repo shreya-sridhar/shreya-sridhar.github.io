@@ -7,6 +7,7 @@ const NavItem = styled(Link)`
 	margin-right: 35px;
 	transition: color 0.2s ease-out;
 	text-decoration: none;
+	font-size:30px;
 	:hover {
 		color: #7fa1e8;
 		transition: color 0.2s;
