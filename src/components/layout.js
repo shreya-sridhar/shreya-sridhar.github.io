@@ -4,7 +4,7 @@ import { StaticQuery, graphql } from "gatsby";
 import styled from "styled-components";
 import { siteMeta } from "../data/Seo";
 import Helmet from "react-helmet";
-import favicon from "../assets/images/rash-favicon.png";
+import me from "../assets/images/websiteme.png";
 import blueBg from "../assets/images/blue-bg.png";
 import { Location } from "@reach/router";
 import "../layouts/index.css";
@@ -38,12 +38,13 @@ const Layout = ({ children }) => (
 				}
 			}
 		`}
-		render={(data) => (
+		render={() => (
 			<>
 				<Helmet
-					title={data.site.siteMetadata.title}
+					// title={siteMetadata.title}
 					meta={[
 						{ name: "description", content: siteMeta.description },
+						{ name: "image", content: siteMeta.image },
 						{
 							name: "keywords",
 							content: siteMeta.keywords.join(", "),
@@ -55,7 +56,7 @@ const Layout = ({ children }) => (
 						{
 							rel: "shortcut icon",
 							type: "image/png",
-							href: `${favicon}`,
+							href: me,
 						},
 					]}
 				/>

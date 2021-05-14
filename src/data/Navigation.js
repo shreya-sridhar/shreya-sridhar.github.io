@@ -15,8 +15,8 @@ export default [
     label: 'Contact',
     path: '/contact',
   },
-  // {
-  //   label: 'Recommendation',
-  //   path: '/recommendation',
-  // }
+  {
+    label: 'Recommendation',
+    path: '/recommendation',
+  }
 ]

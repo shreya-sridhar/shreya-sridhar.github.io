@@ -107,6 +107,10 @@ const ProjectBox = ({ info }) => (
             info.demoPath != null ?
             <a href={info.demoPath}>Website </a> : ''
           }
+           {
+            info.videoPath != null ?
+            <a href={info.videoPath}>Demo Video </a> : ''
+          }
           <p>Development year - {info.year} </p>
           <p>Technology stack - {info.techUsed} </p>
         </BoxStack>

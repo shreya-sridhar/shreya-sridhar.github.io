@@ -35,7 +35,7 @@ export default [
 		description:
 			"Travel planning website to make itineraries from attractions, hotels & explore about destination. Developed website using Ruby on Rails using MVC design practices.Integrated Google API for maps, photos & directions, OpenTripMap API for retrieving tourism attractions and Pixabay for getting videos.",
 		githubPath: "https://github.com/shreya-sridhar/TravelBug",
-		demoPath: "https://guarded-mountain-09991.herokuapp.com/",
+		demoPath: "http://travellerbug.herokuapp.com/",
 		videoPath:"https://www.youtube.com/watch?v=y4_sh7RIJ5g&feature=youtu.be",
 		year: "2020",
 		techUsed: "React, Ruby, Rails, Javascript, Postgresql, Rest API integration, Cookies & Sessions",

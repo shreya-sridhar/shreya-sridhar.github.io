@@ -21,7 +21,7 @@ const IndexPage = () => {
 				<UserDescription>
 					<div>
 						<p>
-							Hello there, welcome to my portfolio. I'm a Full Stack developer experienced in Ruby on Rails, React, React Native & Javascript. I transitioned into software engineering from a data science (analytics) background.
+							{/* Hello there, welcome to my portfolio. I'm a Full Stack developer experienced in Ruby on Rails, React, React Native & Javascript. I transitioned into software engineering from a data science (analytics) background. */}
 						</p>
 						<DownloadButton
 							href="https://shreyastorage.blob.core.windows.net/shreyasridhariitbresume/shreya_iitb_resume.pdf"

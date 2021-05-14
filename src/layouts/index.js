@@ -8,7 +8,7 @@ import './index.css'
 import { siteMeta } from '../data/Seo'
 import favicon from '../assets/images/rash-favicon.png'
 import blueBg from '../assets/images/blue-bg.png'
-// import me from '../assets/images/websiteme.PNG'
+import me from '../assets/images/websiteme.svg'
 
 const Wrapper = styled.div`
   background-image: url(${blueBg});
@@ -31,6 +31,9 @@ export default class Layout extends Component {
   }
   render(){
     return(
+      <head>
+        <meta name="image" property="og:image" content={me}>
+      </head>
       <div>
       </div>
     )
