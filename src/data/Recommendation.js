@@ -3,7 +3,7 @@ export default [
         id: 1,
         name: "Minimax Algorithm : AI In Game Theory",
         designation: "",
-        userLink: "https://www.linkedin.com/in/avinashsaurabh/",
+        userLink: "https://shreyasridhar1109.medium.com/minimax-algorithm-ai-in-game-theory-5c426a9e3820",
         dated: "",
         description: ""
     },
