@@ -16,7 +16,9 @@ export default [
     path: '/contact',
   },
   {
-    label: 'Blog',
-    path: '/Blog',
+    label: 'Blogs',
+    path: '/blog',
   }
 ]
+
+
