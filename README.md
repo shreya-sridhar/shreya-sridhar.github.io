@@ -6,6 +6,8 @@ The website is built using a React frontend. It includes different sections show
 
 ![alt text](https://github.com/shreya-sridhar/shreya-sridhar.github.io/blob/develop/websiteme.png?raw=true)
 
+![alt text](https://github.com/shreya-sridhar/shreya-sridhar.github.io/blob/develop/vodafone.svg?raw=true)
+
 
 Run Locally
 
