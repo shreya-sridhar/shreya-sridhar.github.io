@@ -5,9 +5,9 @@ module.exports = {
     description: "Hello there, welcome to my portfolio. I'm a Full Stack developer experienced in Ruby on Rails, React, React Native & Javascript. I transitioned into software engineering from a data science (analytics) background.",
     image: "/src/assets/images/websiteme.png" ,
   },
-
   plugins: [
     'gatsby-plugin-react-helmet',
+    `gatsby-plugin-fontawesome-css`,
     'gatsby-plugin-styled-components',
     {
       resolve: `gatsby-plugin-google-fonts`,
@@ -27,6 +27,4 @@ module.exports = {
     },
   ],
 }
-
-
 
